@@ -2,13 +2,13 @@
 
 Aplicativo mobile desenvolvido para a clínica de estética **La Belle Lune**, onde as clientes criam conta, escolhem um serviço, um dia e um horário, e acompanham suas consultas. Existe também uma área restrita para a administração visualizar os agendamentos.
 
-## 🎓 Contexto acadêmico
+## Contexto acadêmico
 
 Projeto desenvolvido em dupla na disciplina **Programação para Dispositivos Móveis em Android**, do curso de **Análise e Desenvolvimento de Sistemas (ADS)** da **Universidade Estácio de Sá**, no 2º semestre de 2025.
 
 Diferente de um exercício com requisitos prontos, o app foi construído para um **cliente real**: levantamos as necessidades da clínica com a parte interessada (o que ela precisava agendar, quais serviços e horários oferece) e transformamos isso em um aplicativo funcional.
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - **Autenticação** de usuários (cadastro e login por e-mail e senha) com **Firebase Authentication**
 - **Agendamento de consultas**: nome, serviço, dia (próximos 15 dias) e horário
@@ -23,7 +23,7 @@ Diferente de um exercício com requisitos prontos, o app foi construído para um
 | --- | --- |
 | Limpeza de pele, Drenagem, Massagem, Retorno | 09:00, 10:00, 11:00, 14:00, 15:00, 16:00 |
 
-## 📱 Telas
+## Telas
 
 | Tela | O que faz |
 | --- | --- |
@@ -42,7 +42,7 @@ Diferente de um exercício com requisitos prontos, o app foi construído para um
 - [Firebase Authentication](https://firebase.google.com/docs/auth) (via API REST)
 - [@react-native-async-storage/async-storage](https://react-native-async-storage.github.io/async-storage/)
 
-## 🚀 Como rodar
+## Como rodar
 
 **Pré-requisitos:** [Node.js](https://nodejs.org/) (versão LTS) e o app **Expo Go** no celular (ou um emulador Android/iOS).
 
@@ -68,7 +68,7 @@ O login e o cadastro usam um projeto Firebase com **Authentication (e-mail/senha
 
 A área do administrador é exibida apenas para a conta administradora da clínica, definida em `TelaPrincipal.js`. Para testar com o seu próprio Firebase, cadastre uma conta com o e-mail definido ali.
 
-## 📂 Estrutura
+## Estrutura
 
 ```
 ├── App.js               # Navegação entre as telas
@@ -83,7 +83,7 @@ A área do administrador é exibida apenas para a conta administradora da clíni
 └── assets/              # Ícones e splash
 ```
 
-## ⚠️ Limitações conhecidas e próximos passos
+## Limitações conhecidas e próximos passos
 
 Esta é a versão (MVP) entregue dentro do prazo da disciplina, e algumas decisões foram simplificadas:
 
@@ -94,6 +94,6 @@ Esta é a versão (MVP) entregue dentro do prazo da disciplina, e algumas decis�
 **Ideias de evolução:** migrar os agendamentos para o Firestore, validar disponibilidade e permissões no backend, e mover a configuração do Firebase para variáveis de ambiente.
 
 
-## 📄 Licença
+## Licença
 
 Distribuído sob a licença 0BSD, conforme definido no `package.json`.
