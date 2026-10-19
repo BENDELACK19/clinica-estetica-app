@@ -1,4 +1,4 @@
-# 💜 La Belle Lune — App de Agendamento para Clínica de Estética
+# La Belle Lune — App de Agendamento para Clínica de Estética
 
 Aplicativo mobile desenvolvido para a clínica de estética **La Belle Lune**, onde as clientes criam conta, escolhem um serviço, um dia e um horário, e acompanham suas consultas. Existe também uma área restrita para a administração visualizar os agendamentos.
 
