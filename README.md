@@ -48,7 +48,7 @@ Diferente de um exercício com requisitos prontos, o app foi construído para um
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/<seu-usuario>/la-belle-lune-app.git
+git clone https://github.com/BENDELACK19/clinica-estetica-app.git
 cd la-belle-lune-app
 
 # 2. Instale as dependências
