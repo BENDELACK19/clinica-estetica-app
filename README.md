@@ -35,7 +35,7 @@ Diferente de um exercício com requisitos prontos, o app foi construído para um
 | Admin | Visão geral de todos os agendamentos (só para a conta administradora) |
 
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 - [React Native](https://reactnative.dev/) 0.81 + [Expo](https://expo.dev/) SDK 54
 - [React Navigation](https://reactnavigation.org/) (stack navigator)
